@@ -1,79 +1,79 @@
 Open main1.py. Before running it, what do you expect this program to do? 
 I expect it to ask questions to the user.
 Now right click on the window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. 
-
+it asked what it's favorite color is. I just put mine because i think that's what it's asking.
 What do you think the program did with what you typed?
-
+it added it into the code so that it will show up the next time i run it in python. update that's not at all what happened i'm not sure what it changed.
 
 
 Open main2.py. Before running it, describe how this is different than main1.py. 
-
+there's the color = thing before the imput and ends with saying print color.
 What do you think the color = input() will do? 
-
+maybe now that i put in the color before it will take that and make the text blue.
 Run the program in the terminal and answer the question. Did the program do what you expected?
-
+no it didn't. it made it so that what i typed then showed up below when i hit enter. before it didn't do anything.
 
 
 Open main3.py. Before running it, describe how this is different than main2.py. 
-
+it has conditions. it looks like there's a right and wrong responce and depending on how i answer i will get different responces.
 What is happening on lines 11–14? 
-
+those would be the possible responces i can get depending on what i imput.
 Why are lines 12 and 14 indented? 
-
+Probably because they directly correlate with the scrip above. it like attaches them togehter; they're connected by being indented.
 Run the program and answer the question. What happens if you don’t capitalize Red? 
-
+it counts it as a wrong answer.
 What does this tell you about "color"?
-
+i'm not really sure? it's in the message and then says color = imput so perhaps it makes clear that the responce will be a color?
 
 
 Open main4.py. Before running it, describe how this is different than main2.py. 
-
+this time it has a second opption for the right answer.
 What problem is this trying to solve? 
-
+it makes it so the responce isn't key sensitve anymore.
 Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
-
+it only specified "red" and "Red," so any other combination of caps does not work.
 
 
 Open main5.py. What do you expect line 11 to do? 
-
+i think it makes it only work if lowercase? I'm not sure why since that is the defult.
 What problem is it trying to solve? 
-
+it makes the responce more specific.
 Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)?
-
+I was very wrong. it made it so that any combination worked. It doesn't work with spaces.
 
 
 Open main6.py. How is line 11 different than main5.py? 
-
+it added in the code there about script.
 What would you guess .strip() is doing? 
-
+it will probably fix the earlier issue anod allow for spaces around the text.
 Run the program and answer the question. Is there another way of writing “red” that will break this logic?
-
+adding any kind of punctuation. I couldn't put a period at the end.
 
 
 Open main7.py. Before running this program, how do you expect this to be different than main6.py? 
-
+it adds a bit of a hint if  you guess pink.
 What is the purpose of line 11? 
-
+it puts together all the fixes from the previous lines of code.
 Run the program and answer the question.
 
 
 
 Open main8.py. What is the purpose of line 11? 
-
+to tell the program the correct answer before adding all the conditions.
 Why are lines 12–19 indented? 
-
+they themselves aren't the answer. they are conditional to the answer and are apart of it. being indented is kind of like putting it into a box.
 Run the program. What would happen if line 12 were moved before line 11 (and no longer indented)? 
-
+it wouldn't have that message pop up where it should anymore
 Make that change and run the program again. To end any Python program, you can type ctrl-c.
-
+It mostly broke the delivery and the only thing it said from the script was the "while (color != 'red')"
 
 
 Open main9.py. What is happening on line 12? 
-
+It is the same line as line 11 in the last program. it is th line that makes red true.
 What is the purpose of “count”? 
-
+it counts the attempts it took the reader to get the right responce.
 What is happening on line 22? 
-
+it's the script that will relay the information from the last question to the reader.
 Run the program.
 
 
